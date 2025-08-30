@@ -8,9 +8,9 @@ services:
     ports:
       - 8080:8080
     networks:
-      - net
+      - nginx_net
     restart: unless-stopped
 
 networks:
-  net:                             
+  nginx_net:                             
     external: true           
