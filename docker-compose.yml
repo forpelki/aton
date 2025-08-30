@@ -4,7 +4,7 @@ services:
   star:
     build: .
     volumes:
-      - /share/ContainerSettings/aton_data:/aton/data
+      - /share/ContainerSettings/Aton:/aton/data
     ports:
       - 8080:8080
     networks:
